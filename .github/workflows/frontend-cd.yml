@@ -5,6 +5,7 @@ name: frontend-workflow-cd
 on:
     # Manual trigger using the workflow_dispatch event
     workflow_dispatch:
+    pull_request:
     # Automatic trigger on pull request events targeting the main branch
     push:
         branches:
