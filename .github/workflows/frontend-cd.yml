@@ -1,3 +1,4 @@
+# Workflow name
 name: frontend-workflow-cd
 
 # Triggers for the workflow
