@@ -64,7 +64,7 @@ jobs:
   
       - name: Install dependencies
         run: |
-          npm ci
+          npm install
           npm install prettier --save-dev
   
       - name: Run test
