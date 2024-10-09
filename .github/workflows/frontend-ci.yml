@@ -1,4 +1,4 @@
-name: Frontend Continuous Integration
+name: Frontend Continuous Integration 
 
 on:
   pull_request:
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./starter/frontend
+        working-directory: ./frontend
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./starter/frontend
+        working-directory: ./frontend
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -76,7 +76,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./starter/frontend
+        working-directory: ./frontend
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
