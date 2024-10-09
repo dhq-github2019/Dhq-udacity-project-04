@@ -34,12 +34,10 @@ jobs:
       - name: Install dependencies
         run: |
            npm install
-           npx browserslist@4.10 --update-db -y
            npm install eslint --save-dev
 
       - name: Run lint
         run: |
-          npx browserslist@4.10 --update-db -y
           npm run lint
           
   test:
