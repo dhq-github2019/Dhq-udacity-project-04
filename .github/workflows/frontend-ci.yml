@@ -38,6 +38,7 @@ jobs:
 
       - name: Run lint
         run: |
+          npx update-browserslist-db@latest
           npm run lint
           
   test:
