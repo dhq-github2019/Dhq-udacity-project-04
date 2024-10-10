@@ -38,7 +38,6 @@ jobs:
 
       - name: lingting process
         run: |
-          pylint --max-line-length=121
           pylint *.py
   test: 
     name: testing
