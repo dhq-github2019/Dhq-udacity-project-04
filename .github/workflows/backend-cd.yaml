@@ -37,6 +37,7 @@ jobs:
 
       - name: lingting process
         run: |
+          pylint --max-line-length=121
           pipenv run lint
   test: 
     name: testing
