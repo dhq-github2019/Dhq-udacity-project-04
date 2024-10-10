@@ -39,7 +39,7 @@ jobs:
       - name: lingting process
         run: |
           pylint --max-line-length=121
-          pylint test_app.py
+          pylint *.py
   test: 
     name: testing
     runs-on: ubuntu-latest
