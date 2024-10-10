@@ -7,6 +7,6 @@
    + Run the frontend and backend CI fist
    + After run terraform to provide infrastructure, run frontend and backend CD
 
-# Url-BackEnd: http://a667d7b09cc1c487a8e3b2d1bd214988-1495614807.us-east-1.elb.amazonaws.com/movies
-# Url-FrontEnd: http://ad773aa87905446c3bb33fa72392dd13-1465676108.us-east-1.elb.amazonaws.com
+# Url-BackEnd: http://ab29a23ab8d6b43878cb923140aaec3f-576542990.us-east-1.elb.amazonaws.com/movies
+# Url-FrontEnd: http://a94f7a7c488e64f1b969d6c90272c16e-21576533.us-east-1.elb.amazonaws.com/
 # Github: https://github.com/dhq-github2019/Dhq-udacity-project-04
