@@ -37,7 +37,7 @@ jobs:
           
       - name: Run lint
         run: |
-          pipenv run lint
+          pipenv run lint-fail
   test: 
     name: testing
     runs-on: ubuntu-latest
