@@ -37,7 +37,7 @@ jobs:
           pipenv install
       - name: Run lint
         run: |
-          pylint ./starter/backend/test_app.py
+          pylint test_app.py
   test: 
     name: testing
     runs-on: ubuntu-latest
